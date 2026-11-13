@@ -1,5 +1,5 @@
 #pragma once
 #include "NeutralObject.h"
-class Trap : NeutralObject {
+class Trap : public NeutralObject {
     void interact(Unit& u) override;
 };

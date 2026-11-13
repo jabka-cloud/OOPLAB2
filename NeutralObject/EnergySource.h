@@ -1,5 +1,5 @@
 #pragma once
 #include "NeutralObject.h"
-class EnergySource : NeutralObject {
+class EnergySource : public NeutralObject {
     void interact(Unit& u) override;
 };
